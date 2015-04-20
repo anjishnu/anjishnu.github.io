@@ -1,7 +1,7 @@
 /*!
  * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0. 2DD8FB
  */
 
 body {
@@ -41,11 +41,12 @@ p {
         margin: 0 0 35px;
         font-size: 20px;
         line-height: 1.6;
+	font-family: Calibri;
     }
 }
 
 a {
-    color: #42dca3;
+    color: #2DD8FB;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -261,12 +262,13 @@ a:focus {
     padding-top: 100px;
 }
 
-.download-section {
+.work-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background: url(../img/echo_img2.jpg) no-repeat center center scroll;
     background-color: #000;
+    opacity:0.85;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -305,17 +307,17 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #42dca3;
-    color: #42dca3;
+    border: 1px solid #FFFFFF;
+    color: #2DD8FB;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #42dca3;
+    border: 1px solid #2DD8FB;
     outline: 0;
     color: #000;
-    background-color: #42dca3;
+    background-color: #2DD8FB;
 }
 
 ul.banner-social-buttons {
