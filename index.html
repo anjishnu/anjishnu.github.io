@@ -1,235 +1,695 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<!-- Meta -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 
-    <title> Anjishnu Kumar </title>
+<!-- Title -->
+<title>Anjishnu Kumar</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- Favicons -->
+<!--
+<link rel="shortcut icon" href="assets/img/favicon.png">
+<link rel="apple-touch-icon" href="assets/img/favicon_60x60.png">
+<link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicon_76x76.png">
+<link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicon_120x120.png">
+<link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicon_152x152.png">
+-->
 
-    <!-- Custom CSS -->
-    <link href="css/grayscale.css" rel="stylesheet">
+<!-- Google Web Fonts -->
+<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500,300,100' rel='stylesheet' type='text/css'>
 
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+<!-- CSS Styles -->
+<link rel="stylesheet" href="assets/css/styles.css" />
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+<!-- CSS Template -->
+<link rel="stylesheet" href="assets/css/theme.min.css" />
+<link rel="stylesheet" href="assets/css/color/blue-beige.css" id="color" />
 
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body class="header-vertical">
+
+<!-- Loader -->
+<div id="page-loader" class="bg-white"></div>
+<!-- Loader / End -->
+
+<!-- Header -->
+<header id="header" class="bg-white hidden-sm hidden-xs">
+
+    <!-- Photo -->
+    <div class="photo">
+        <img src="assets/img/anjishnu_photo.jpg" alt="..." class="img-circle" hspace="20">
+    </div>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-play-circle"></i>  <span class="light">Anjishnu</span> Kumar
-                </a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#work">Work</a>
-                    </li>
-		    <li>
-                        <a class="page-scroll" href="#projects">Projects</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
+    <nav id="main-menu">
+        <ul class="nav nav-vertical">
+            <li><a href="#home"><span>Home</span></a></li>
+            <li><a href="#resume"><span>About</span></a></li>
+            <li><a href="#publication"><span>Publication</span></a></li>
+            <li><a href="#talk"><span>Talk</span></a></li>
+            <li><a href="#teaching"><span>Teaching</span></a></li>
+            <li><a href="#contact"><span>Contact</span></a></li>
+        </ul>
     </nav>
 
-    <!-- Intro Header -->
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">DON'T PANIC</h1>
-                        <p class="intro-text">
-			<p> Trust me, I'm a scientist. </p>
+    <!-- Social Media -->
+    <div class="social-media">
+        <!--
+            <strong class="text-sm">Check my social media!</strong>
+        -->
+        <ul class="list-inline margin-t-10">
+            <li><a href="https://www.facebook.com/eddy0613" class="icon icon-xs"><i class="fa fa-facebook text-muted"></i></a></li>
+            <li><a href="https://twitter.com/peihaosu" class="icon icon-xs"><i class="fa fa-twitter text-muted"></i></a></li>
+            <li><a href="https://github.com/eddy0613" class="icon icon-xs"><i class="fa fa-github text-muted"></i></a></li>
+            <li><a href="https://uk.linkedin.com/in/phs26" class="icon icon-xs"><i class="fa fa-linkedin text-muted"></i></a></li>
+        </ul>
+    </div>
 
-			<p>
-			  I'm an applied scientist and a software engineer who enjoys working on interesting machine learning projects. 
-			</p>
-			<p>
-			  I often wander but am rarely ever lost.
-			</p>
-			</p>
-                        <a href="#about" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
+
+</header>
+<!-- Header / End -->
+
+<!-- Content -->
+<div id="content" class="bg-white">
+
+    <!-- Section - Home -->
+    <section id="home" class="section fullheight bg-secondary dark padding-v-60">
+
+        <!-- BG Image -->
+        <!--
+        <div class="bg-dark bg-image animated infinite zooming"><img src="" alt="..."></div>
+        -->
+        <div class="bg-dark bg-image animated infinite zooming"><img src="img/echo-backchannel.jpeg" alt="..."></div>
+
+        <!-- Top -->
+
+        <!-- Middle -->
+        <div class="container container-wide v-bottom padding-v-0">
+            <h1 class="text-lg margin-b-0">Hi! I’m <strong>Anjishnu Kumar</strong></h1>
+            <h5 class="text-tertiary margin-b-40">Applied Scientist and Machine Learning Engineer</h5>
+        <!--
+            <span data-target="local-scroll"><a href="#resume" class="btn btn-lg btn-primary animated" data-animation="bounceIn"><span>More about me!</span><i class="ti-arrow-down"></i></a></span>
+            <a href="assets/doc/Resume_Pei-Hao_Su.pdf" class="btn btn-link"><span>Curriculum Vitae</span><i class="ti-file"></i></a>
+        -->
+        </div>
+        
+    </section>
+    <!-- Section - Home / End -->
+
+    <!-- Section - Resume -->
+    <section id="resume" class="section padding-v-60">
+
+        <!-- Content -->
+        <div class="container container-wide">
+
+            <h4 class="margin-b-50">About</h4>
+            
+            <div class="row padding-lg">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+
+                    <!-- Resume Box / About -->
+                    <div class="resume-box">
+
+		      Hi, I'm Anjishnu, I work as an applied machine learning scientist on
+                      <strong><a href="https://en.wikipedia.org/wiki/Amazon_Alexa" target="_blank">Alexa</a></strong>.
+                      I current work in the Cambridge office and focus on open domain question answering.
+                             
+                      <br><br> 
+                      I enjoy building cutting edge consumer facing products that are made possible by machine learning. On the research side, my interest lies mainly in the intersection of representation learning and zero-shot learning and knowledge representation. The deep learning algorithms of today are extremely resource hungry, in terms of data, computation and size - whereas humans are able to perform exceptionally well at a task with only a single representative example. 
+
+                            <br><br>
+                                
+                            Prior to Cambridge, I worked in Seattle where I had the experience of building one of the biggest machine learning powered platforms of today,  <strong><a href="http://speech.ee.ntu.edu.tw/previous_version/lslNew.htm" target="_blank">The Alexa Skills Kit (ASK)</a></strong>
+			    This project was an incredible learning experience in terms of building machine learning systems with resource constraints and in terms of ML platform design.                               
+                            <a href="assets/doc/resume_anjishnu_kumar_oct17.pdf"> <strong>Resume</strong></a> (last update: 19 October 2017)
+
+                    </div>
+
+                    <div class="resume-box">
+                        <h4><strong>Recent Work</strong></h4>
+
+                            <UL>
+                                <li> <b>Zero-Shot Learning Across Heterogenous Domains</b>
+                                <li> Just ASK: Building an Extensible Self Service Spoken Language Understanding System
+                            </UL>
+                    </div>
+
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+
+                    <!-- Resume Box / Education and Jobs -->
+                    <div class="resume-box">
+                        <h4><strong>Education</strong> &amp; jobs</h4>
+                        <div class="timeline">
+                            <!-- Single event -->
+                            <!--
+                            -->
+                            <div class="timeline-event te-primary">
+                                <span class="event-date">September 2017 Onwards</span>
+                                <span class="event-name">Amazon Alexa (Evi)</span>
+                                <span class="event-description">Applied Scientist</span>
+                            </div>
+
+                            <!-- Single event -->
+                            <div class="timeline-event te-primary">
+                                <span class="event-date">Feb 2014 - June 2017</span>
+                                <span class="event-name">Amazon Alexa (Alexa Brain, ASK)</span>
+                                <span class="event-description">ML Scientist  Kit</span>
+                            </div>
+                            <!-- Single event -->
+                            <div class="timeline-event te-primary">
+                                <span class="event-date">Summer 2012</span>
+                                <span class="event-name">Columbia University in the City of New York</span>
+                                <span class="event-description">Software Engineer Intern<br>Cloud storage division</span>
+                            </div>
+
+                            <!-- Single event -->
+                            <div class="timeline-event te-primary">
+                                <span class="event-date">Jan 2012 - June 2013</span>
+                                <span class="event-name"> Electronic Arts Games</span>
+                                <span class="event-description"> Software Engineer Intern
+			    </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+
+                    <!-- Resume Box / Hobbies -->
+                    <div class="resume-box">
+                    </div>
+
+                </div>
+            </div>     
+
+        </div>
+        
+    </section>
+    <!-- Section - Resume / End -->
+    
+    <!-- Section - Publication -->
+    <section id="publication" class="section bg-grey padding-v-60">
+
+        <!-- Content -->
+        <div class="container container-wide">
+
+            <h6 class="margin-b-50">Publication</h6>
+            <h5 class="text-center">First author and main work only, see also my full list of publications in my <a href="http://scholar.google.com/citations?user=5La6VV4AAAAJ&hl=zh-TW"><u>Google Scholar page</u></a></h5>
+
+            <!-- Filters -->
+            <nav class="text-center">
+                <ul class="nav nav-filter nav-pills margin-b-40" data-filter-grid="#publication-list">
+                    <li class="active"><a href="#" data-filter="*">All</a></li>
+                    <li><a href="#" data-filter=".preprint">Preprint</a></li>
+                    <li><a href="#" data-filter=".journal">Journal</a></li>
+                    <li><a href="#" data-filter=".conference">Conference</a></li>
+                    <li><a href="#" data-filter=".thesis">Thesis</a></li>
+                </ul>
+            </nav>
+            
+            <div id="publication-list" class="row masonry">
+                <!-- Masonry Sizer -->
+                <div class="masonry-sizer col-lg-3 col-sm-6 col-xs-12"></div>    
+
+                <!-- Masonry Element -->
+
+                <div class="journal masonry-item">
+                    <p><h4>
+                    Journal Article
+                    </h4></p>
+                    
+                    <ol class="journal" reversed>
+                        <li>
+                        <b>“A Recursive Dialogue Game for Personalized Computer-Aided Pronunciation Training”</b><p>
+                        <i>IEEE Transaction on Audio, Speech and Language Processing, January 2015</i>
+                        [<a href="assets/doc/TASLP_2015_SU.pdf" target="_blank">paper</a> <i class="fa fa-file-pdf-o"></i></a>]
+                            [<a href="assets/doc/SuWL15.bib">bib <i class="fa fa-file-text-o"></i></a>]<p>
+                        <u>Pei-hao Su</u>, Chuan-hsun Wu, and Lin-shan Lee
+
+                        </li>
+                    </ol>
+                </div>
+
+                <!--
+                -->
+                <div class="preprint masonry-item">
+                    <p><h4>
+                    Preprint
+                    </h4></p>
+
+                    <ol class="preprint" reversed>
+
+                        <li>
+                        <b>“Continuously Learning Neural Dialogue Management”</b><p>
+                            <i>arXiv preprint:1606.02689</i>
+                            [<a href="https://arxiv.org/pdf/1606.02689.pdf" target="_blank">paper <i class="fa fa-file-pdf-o"></i></a>]
+                            [<a href="assets/doc/sgmr16b.bib">bib <i class="fa fa-file-text-o"></i></a>]<p>
+                            <u>Pei-Hao Su</u>, Milica Ga&#353i&#263, Nikola Mrk&#353i&#263, Lina Rojas-Barahona, Stefan Ultes, David Vandyke, Tsung-Hsien Wen and Steve Young,<p> 
+                        </li>
+
+
+                    </ol>
+                </div>
+
+                <div class="conference masonry-item">
+                    <p><h4>
+                    Conference Paper
+                    </h4></p>
+
+                    <ol class="conference" reversed>
+
+
+                        <li>
+                            <b>“Sample-efficient Actor-Critic Reinforcement Learning with Supervised Data for Dialogue Management”</b>
+                            <i>SIGDIAL 2017 (Long)</i><p>
+                            <u>Pei-Hao Su</u>, Paweł Budzianowski, Stefan Ultes, Milica Ga&#353i&#263 and Steve Young
+                            <!--
+                            -->
+                        </li>
+
+
+
+                        <li>
+                            <b>“On-line Active Reward Learning for Policy Optimisation in Spoken Dialogue Systems”</b>
+                            <i>ACL 2016</i><p>
+                            [<a href="assets/doc/sgmr16a.pdf" target="_blank">paper <i class="fa fa-file-pdf-o"></i></a>]
+                            [<a href="assets/doc/sgmr16a.bib">bib <i class="fa fa-file-text-o"></i></a>]
+                            [<a href="assets/doc/ACL_2016_final.pdf">slides <i class="fa fa-file-powerpoint-o"></i></a>]
+                            [<a href="https://www.repository.cam.ac.uk/handle/1810/256020/">data <i class="fa fa-database"></i></a>]
+                            [<a href="http://techtalks.tv/talks/on-line-active-reward-learning-for-policy-optimisation-in-spoken-dialogue-systems/63230/">video <i class="fa fa-video-camera"></i></a>]
+                            <span style="color:red;"> (Best Student Paper Award) </span><p>
+                            <u>Pei-Hao Su</u>, Milica Ga&#353i&#263, Nikola Mrk&#353i&#263, Lina Rojas-Barahona, Stefan Ultes, David Vandyke, Tsung-Hsien Wen and Steve Young
+                            <!--
+                            -->
+                        </li>
+
+
+                        <li>
+                        <b>“Multi-Domain Dialogue Success Classifiers for Policy Training”</b>
+                            <i>ASRU 2015</i><p>
+                            David Vandyke, <u>Pei-Hao Su</u>, Milica Ga&#353i&#263, Nikola Mrk&#353i&#263, Tsung-Hsien Wen and Steve Young 
+                            <!--
+                            [<a href="assets/doc/svgm15.pdf" target="_blank">paper <i class="fa fa-file-pdf-o"></i></a>]
+                            [<a href="assets/doc/svgm15.bib">bib <i class="fa fa-file-text-o"></i></a>]
+                            -->
+                        </li>
+
+                        <li>
+                            <b>“Reward Shaping with Recurrent Neural Networks for Speeding up On-Line Policy Learning in Spoken Dialogue Systems”</b>
+                            <i>SIGDIAL 2015</i><p>
+                            [<a href="assets/doc/svgm15.pdf" target="_blank">paper <i class="fa fa-file-pdf-o"></i></a>]
+                            [<a href="assets/doc/svgm15.bib">bib <i class="fa fa-file-text-o"></i></a>]<p>
+                            <u>Pei-Hao Su</u>, David Vandyke, Milica Ga&#353i&#263, Nikola Mrk&#353i&#263, Tsung-Hsien Wen and Steve Young
+                        </li>
+                        
+                        <li>
+                            <b>“Learning from Real Users: Rating Dialogue Success with Neural Networks for Reinforcement Learning in Spoken Dialogue Systems”</b>
+                            <i>Interspeech 2015</i><p>
+                            [<a href="assets/doc/svgk15.pdf" target="_blank">paper <i class="fa fa-file-pdf-o"></i></a>]
+                            [<a href="assets/doc/svgk15.bib">bib <i class="fa fa-file-text-o"></i></a>]<p>
+                            <u>Pei-Hao Su</u>, David Vandyke, Milica Ga&#353i&#263, Dongho Kim, Nikola Mrk&#353i&#263, Tsung-Hsien Wen and Steve Young
+                        </li>
+                        
+                        
+                        <li>
+                            <b>“A Cloud-based Personalized Recursive Dialogue Game System for Computer-Assisted Language Learning”</b>
+                            <i>SLaTE 2013</i><p>
+                            [<a href="assets/doc/SigSLaTe_2013_SU.pdf" target="_blank">paper <i class="fa fa-file-pdf-o"></i></a>]
+                            [<a href="assets/doc/SuYSL13.bib">bib <i class="fa fa-file-text-o"></i></a>]<p>
+                            <u>Pei-hao Su</u>, Tien-han Yu, Ya-Yunn Su, and Lin-shan Lee
+                        </li>
+                        
+                        <li>
+                            <b>“NTU Chinese 2.0: A Personalized Recursive Dialogue Game for Computer-Assisted Language Learning”</b>
+                            <i>SLaTE Demo 2013</i><p>
+                            [<a href="assets/doc/SigSLaTe_2013_demo_poster_SU.pdf" target="_blank">poster <i class="fa fa-file-pdf-o"></i></a>]
+                            [<a href="assets/doc/SuYSL13a.bib">bib <i class="fa fa-file-text-o"></i></a>]<p>
+                            <u>Pei-hao Su</u>, Tien-han Yu, Ya-Yunn Su, and Lin-shan Lee
+                        </li>
+
+                        <li>
+                            <b>“A Recursive Dialogue Game Framework with Optimal Policy Offering Personalized Computer-Assisted Language Learning”</b>
+                            <i>Interspeech 2013</i><p>
+                            [<a href="assets/doc/IS_2013_SU.pdf" target="_blank">paper <i class="fa fa-file-pdf-o"></i></a>]
+                            [<a href="assets/doc/SuWWYL13.bib">bib <i class="fa fa-file-text-o"></i></a>]<p>
+                            <u>Pei-hao Su</u>, Yow-Bang Wang, Tsung-Hsien Wen, Tien-han Yu, and Lin-shan Lee
+                        </li>
+
+                        <li>
+                            <b>“A Dialogue Game Framework with Personalized Training using Reinforcement Learning for Computer-Assisted Language Learning”</b>
+                            <i>ICASSP 2013</i><p>
+                            [<a href="assets/doc/ICASSP_2013_SU.pdf" target="_blank">paper <i class="fa fa-file-pdf-o"></i></a>]
+                            [<a href="assets/doc/SuWYL13.bib">bib <i class="fa fa-file-text-o"></i></a>]<p>
+                            <u>Pei-hao Su</u>, Yow-Bang Wang, Tien-han Yu, and Lin-shan Lee
+                        </li>
+
+                    </ol>
+
+
+                    <p><h4>
+                    Collaborated Conference Paper
+                    </h4></p>
+                
+                    <ol class="conference" reversed>
+                        <li>
+                            <b>“Multi-agent learning in multi-domain spoken dialogue systems”</b><p>
+                            <i>NIPS 2015 Workshop on Machine Learning for Spoken Language Understanding and Interaction</i>
+                            [<a href="assets/doc/gmrs15.pdf" target="_blank">paper <i class="fa fa-file-pdf-o"></i></a>]<p>
+                            Milica Ga&#353i&#263, Nikola Mrk&#353i&#263, Lina Rojas-Barahona, <u>Pei-Hao Su</u>, David Vandyke, Tsung-Hsien Wen and Steve Young
+                        </li>
+                        <li>
+                            <b>“Hyper-parameter Optimisation of Gaussian Process Reinforcement Learning for Statistical Dialogue Management”</b>
+                            <i>SigDial 2015</i><p>
+                            [<a href="assets/doc/csga15.pdf" target="_blank">paper <i class="fa fa-file-pdf-o"></i></a>]<p>
+                            Lu Chen, <u>Pei-Hao Su</u> and  Milica Ga&#353i&#263
+                        </li>
+                    </ol>
+                </div>
+
+                <!-- start thesis -->
+                <div class="thesis masonry-item">
+                    <p><h4>
+                    Thesis
+                    </h4></p>
+                
+                    <ol class="thesis" reversed>
+                        <li>
+                            <b>“A Dialogue Game Framework Offering Personalized Pronunciation Training for Computer-Assisted Language Learning”</b><p>
+                            <i>Master Thesis, National Taiwan University 2013</i><p>
+                            <u>Pei-hao Su</u>
+                        </li>
+                    </ol>
+
+                </div>
+                <!-- end thesis -->
+
+            </div>    
+
+        </div>
+        
+    </section>
+    <!-- Section - publication / End -->
+
+    <!-- Section - Talk -->
+    <section id="talk" class="section bg-primary dark padding-v-60">
+
+        <!-- Content -->
+        <div class="container container-wide">
+
+            <h6 class="margin-b-50">Invited Talk</h6>
+
+            <h4 class="margin-b-0"><strong>Industy</strong></h4>
+            <p>
+                <ul>
+                    <li>
+                    <b>"Reward Estmiation for Dialogue Policy Optimisation"</b>
+                    <p>
+                    <i>General Motor Advanced Techinal Center Israel, 20 March 2017</i>
+                    </li>
+
+
+                    <li>
+                    <b>“Practical Human-in-the-loop Reinforcement Learning in Spoken Dialogue Systems”</b>
+                    <p>
+                    <i>Apple Cambridge, 12 Oct 2016</i>
+                    </li>
+
+                    <li>
+                    <b>“On-line Active Reward Learning for Policy Optimisation in Spoken Dialogue Systems”</b>
+                    <p>
+                    <i>Maluuba Research (Now Microsoft). 2 Aug 2016</i>
+                    </li>
+                   
+                    <li>
+                    <b>“On-line Active Reward Learning for Policy Optimisation in Spoken Dialogue Systems”</b>
+                    <p>
+                    <i>Toshiba Research Cambridge. 8 June 2016</i>
+                    </li>
+                </ul>
+
+
+            <h4 class="margin-b-0"><strong>Academia</strong></h4>
+            <p>
+                <ul>
+
+
+                    <li>
+                    <b>“Reward Estimation for Dialogue Policy Optimisation”</b>
+                    <p>
+                    <i><a href= http://turing.tilda.ws/>DeepHack.Turing Summer School Hackahton, Moscow, Russia</a>. 25 July 2017</i>
+
+                    [<a href="assets/doc/talks/DeepHack_talk_25072017.pdf" target="_blank">slides <i class="fa fa-file-pdf-o"></i></a>]
+                    </li>
+
+                    <li>
+                    <b>“Beyond Siri: towards fully data-driven conversational systems”</b>
+                    <p>
+                    <i>Queens' College Cambridge Grad Talk. 20 Feb 2017</i>
+                    </li>
+ 
+
+                    <li>
+                    <b>“On-line Active Reward Learning for Policy Optimisation in Spoken Dialogue Systems”</b>
+                    <p>
+                    <i>Cambridge NLIP Seminar. 25 Nov 2016</i>
+                    </li>
+                    
+                    <li>
+                    <b>“Practical and Scalable Reinforcement Learning for Spoken Dialogue Systems”</b>
+                    <p>
+                    <i>NTU Speech Lab, Taiwan. 24 June 2016</i>
+                    </li>
+                  
+                    <li>
+                    <b>“Practical and Scalable Reinforcement Learning for Spoken Dialogue Systems”</b>
+                    <p>
+                    <i>Academia Sinica Taiwan. 21 June 2016</i>
+                    </li>
+
+                    <li>
+                    <b>“Transfer Learning”</b>
+                    <p>
+                    <i>Cambridge University Machine Learning Group Seminar. Feb 2015</i>, with <strong><a href="http://yingzhenli.net/home/en/" target="_blank">Yingzhen Li</a></strong>, 
+                    [<a href="assets/doc/talks/transferlearning-li-and-su.pdf" target="_blank">slide <i class="fa fa-file-pdf-o"></i></a>]
+                    </li>
+                </ul>
+
+
+            <h4 class="margin-b-0"><strong>Conference</strong></h4>
+            <p>
+                <ul>
+                    <li>
+                    <b>“On-line Active Reward Learning for Policy Optimisation in Spoken Dialogue Systems”</b>
+                        <p>
+                    <i>ACL 2016. Berlin, Germany.</i>
+                    </li>
+                    
+                    <li>
+                        <b>“Learning from Real Users: Rating Dialogue Success with Neural Networks for Reinforcement Learning in Spoken Dialogue Systems”</b>
+                        <p>
+                        <i>Interspeech 2015. Dresden, Germany.</i>
+                    </li>
+                    
+                    <li>
+                    <b>“A Cloud-based Personalized Recursive Dialogue Game System for Computer-Assisted Language Learning”</b>
+                        <p>
+                        <i>SLaTE 2013. Grenoble, France.</i>
+                    </li>
+                   
+                    <li>
+                        <b>“A Recursive Dialogue Game Framework with Optimal Policy Offering Personalized Computer-Assisted Language Learning”</b>
+                        <p>
+                        <i>Interspeech 2013. Lyon, France.</i>
+                    </li>
+
+                    <li>
+                        <b>“A Dialogue Game Framework with Personalized Training using Reinforcement Learning for Computer-Assisted Language Learning”</b>
+                        <p>
+                        <i>ICASSP 2013. Vancouver, Canada.</i>
+                    </li>
+                </ul>
+
+        </div>
+        
+    </section>
+    <!-- Section - Talk / End -->
+
+    <!-- Section - Teaching -->
+    <section id="teaching" class="section bg-grey padding-v-60">
+
+        <!-- Content -->
+        <div class="container container-wide">
+
+            <h6 class="margin-b-50">Teaching</h6>
+    
+            <!-- Resume Box / Education and Jobs -->
+            <div class="resume-box">
+                <h4><strong>Supervision and Teaching Assistant</strong></h4>
+                <div class="timeline">
+                    
+                    <!-- Single event -->
+                    <div class="timeline-event te-primary">
+                        <span class="event-date">Spring 2017</span>
+                        <span class="event-name">MPhil Project on Sample-efficient Reinforcement Learning for Dialogue Management</span>
+                        <span class="event-description">MPhil in Machine Learning, Speech and Language Technology, Cambridge University</span>
+                    </div>
+
+                    <!-- Single event -->
+                    <div class="timeline-event te-primary">
+                        <span class="event-date">Spring 2017</span>
+                        <span class="event-name">Reinforcement Learning</span>
+                        <span class="event-description">MPhil in Machine Learning, Speech and Language Technology, Cambridge University</span>
+                    </div>
+
+
+                    <!-- Single event -->
+                    <div class="timeline-event te-primary">
+                        <span class="event-date">Fall 2016</span>
+                        <span class="event-name">Introduction to Python</span>
+                        <span class="event-description">Murray Edwards College, Cambridge University</span>
+                    </div>
+                    <!-- Single event -->
+                    <div class="timeline-event te-primary">
+                        <span class="event-date">Spring 2016</span>
+                        <span class="event-name">Statistical Dialogue Systems</span>
+                        <span class="event-description">MPhil in Machine Learning, Speech and Language Technology, Cambridge University</span>
+                    </div>
+
+                    <!-- Single event -->
+                    <div class="timeline-event te-primary">
+                        <span class="event-date">Spring & Fall 2012, Spring 2013</span>
+                        <span class="event-name">Digital Speech Processing</span>
+                        <span class="event-description">EECS Department, National Taiwan University</span>
+                    </div>
+
+                    <!-- Single event -->
+                    <div class="timeline-event te-primary">
+                        <span class="event-date">Spring & Fall 2012, Spring 2013</span>
+                        <span class="event-name">Special Project: Reinforcement Learning for Dialogue Game</span>
+                        <span class="event-description">EECS Department, National Taiwan University</span>
                     </div>
                 </div>
             </div>
+
         </div>
-    </header>
-
-    <!-- About Section -->
-    <section id="about" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>About me</h2>
-		
-                <p>
-		  I am amalgamated byproduct of a series of interests in science, technology, genetics, neuroscience, cognition,
-		  psychology, physics and philosophy.
-
-		  At some point along the way I ended up getting degrees in engineering and computer science surrounded by some really smart folks. 
-		  Now I write code and design intelligent algorithms for a living.
-		  Some of my old projects from grad schools can be found on my
-		  <a href="https://github.com/anjishnu">my github page</a>,
-		  although the code quality on some of the early stuff makes me want to cringe.
-
-                <p>I currently work as a Machine Learning  Scientist work on the
-		  <a href="http://http://www.amazon.com/oc/echo/">Amazon Echo</a>, a voice controlled bluetooth speaker that is rapidly evolving into a smart-home hub - or more generally on the Alexa digital virtual assistant running on a range of devices including Echo and the Fire TV.</p>
-		  
-		<p>We are using machine learning (No, it's not 'Big Data') and the AWS Cloud to power a revolution in the connected home. </p>
-		  
-		<p>The future is now.</p>
-
-                <p>In my free time you can usually find me
-		  <a href="http://http://torvoraptor.deviantart.com/gallery/">sketching</a>,
-		  writing,
-		  <a href="http://https://soundcloud.com/anjishnu-kumar/">playing my guitar</a> or hacking up new prototypes on the side. 
-		  Recently I've also started learning Krav Maga, a form of Israeli self defence. </p>
-            </div>
-        </div>
+        
     </section>
+    <!-- Section - Latest teaching / End -->
 
-    <!-- Work Section -->
-    <section id="work" class="content-section text-center">
-        <div class="work-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                  <h2>Work</h2>
-		  <p> I work on the natural language processing stack for the Amazon Echo, on Natural Language Understanding, supporting the SDK expansion and Language Modeling. For a brief summary of my work history you can check my <a href="resume_anjishnu_kumar.pdf"> resume</a>. 
-                </div>
-            </div>
+    <!-- Section - Contact -->
+    <section id="contact" class="section padding-v-60 min-fullheight">
+
+        <!-- BG Map -->
+        <div id="google-map" class="bg-image" data-latitude="52.1984" data-longitude="0.1207"></div>
+        <!--
+        <div id="google-map" class="bg-image" data-latitude="52.1984" data-longitude="0.1207" data-style="light"></div>
+        -->
+
+        <!-- Contact Box -->
+        <div class="contact-box bg-secondary dark animated" data-animation="flipInY">
+            <h1>Contact Info</h1>
+            <!-- Contact List -->
+            <ul class="list-unstyled list-unstyled-icons">
+                <li><i class="inline-icon icon-before-and-after text-primary fa fa-map-marker"></i>
+                Room BN3-011<br>Engineering Department<br>Trumpington Street<br />Cambridge CB2 1PZ</li>
+                <li><i class="inline-icon icon-before-and-after text-primary fa fa-comment"></i><a href="#">phs26@cam.ac.uk</a></li>
+                <li><i class="inline-icon icon-before-and-after text-primary fa fa-phone"></i>+44 1223 332 654</li>
+            </ul>
+            <ul class="list-inline">
+                <li><a href="https://www.facebook.com/eddy0613" class="icon icon-circle icon-xs icon-facebook"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/peihaosu" class="icon icon-circle icon-xs icon-twitter"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://plus.google.com/111463251853991772095" class="icon icon-circle icon-xs icon-google-plus"><i class="fa fa-google-plus text-muted"></i></a></li>
+                <li><a href="https://github.com/eddy0613" class="icon icon-circle icon-xs icon-github"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://uk.linkedin.com/in/phs26" class="icon icon-circle icon-xs icon-linkedin"><i class="fa fa-linkedin"></i></a></li>
+
+            </ul>
+
+        <p class="text-center">Copyright © 2017 Pei-Hao (Eddy) Su, Design: <a target="_blank" href="http://themes.suelo.pl/mi/">Mi.</a></p>
         </div>
+
+
     </section>
+    <!-- Section - Contact / End -->
 
-    <!-- Projects Section -->
-    <section id="projects" class="content-section text-center">
-        <div class="project-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2" align='left'>
-                  <h2>Projects</h2>		  
-		  <p> I have worked on a variety of applied machine learning projects. Some of these use traditional algorithms and need to be retuned using modern  deep learning techniques.
-		  </p>
-		  <p>
-		    <b>
-		      Semantic Image Gallery 
-		    </b>
-		    <br> A self organizing image gallery app which uses machine learning over the cloud to learn tags for images on your android device.		  <p>
-		    <b>Perspectiv</b>
-		    <br> An interactive tool for text data analysis and visualization tool using Latent Dirichlet Allocation, Word2Vec embeddings for semantic representation and T-Stochastic Neighbourhood Embedding techniques for dimensionality reduction for visualization.
-		  </p>
-		  <p>
-		    <b>Seekr</b>
-		    <br> A local social networking Android app
-		    - allows you to communicate with people in the close vicinity - say the same city block and
-		    collaborate on tasks or go to events. Used an ensemble 'event detector' classifier and web scraping to
-		    mine events from twitter data as well
-		    as sources like EventBrite and Facebook. Used a distributional thesaurus to do search recommendations.
+</div>
+<!-- Content / End -->
 
-		  </p>
-		  <p>
-		    <b>IBM Models 1 and 2</b>
-		    <br> Implemented the two seminal machine translation models by IBM Research from scratch in Python.
-		  </p>
-                </div>
-            </div>
+<!-- Mobile Navigation -->
+<a href="#" id="mobile-nav-toggle" class="icon icon-circle icon-sm icon-primary icon-hover visible-xs visible-sm" data-target="mobile-nav">
+    <i class="ti-menu"></i>
+</a>
+<nav id="mobile-nav" class="bg-white">
+    <div class="mobile-nav-wrapper">
+        <!-- Avatar -->
+        <img src="assets/img/anjishnu_photo.jpg" alt="..." class="img-circle margin-b-30">
+        <!-- Nav -->
+        <ul class="nav nav-vertical">
+            <li><a href="#home"><span>Home</span></a></li>
+            <li><a href="#resume"><span>About</span></a></li>
+            <li><a href="#publication"><span>Publication</span></a></li>
+            <li><a href="#talk"><span>Talk</span></a></li>
+            <li><a href="#teaching"><span>Teaching</span></a></li>
+            <li><a href="#contact"><span>Contact</span></a></li>
+        </ul>
+        <!-- Social Media -->
+        <div class="margin-t-20">
+            <ul class="list-inline margin-t-10">
+                <li><a href="https://www.facebook.com/eddy0613" class="icon icon-xs"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/peihaosu" class="icon icon-xs"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://plus.google.com/111463251853991772095" class="icon icon-xs"><i class="fa fa-google-plus text-muted"></i></a></li>
+                <li><a href="https://github.com/eddy0613" class="icon icon-xs"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://uk.linkedin.com/in/phs26" class="icon icon-xs"><i class="fa fa-linkedin"></i></a></li>
+
+
+            </ul>
         </div>
-    </section>
-    
-    <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Me</h2>
-                <p>Feel free to contact me in case you want to talk about life, the universe or anything interesting, really.</p>
-                </p>
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                      <a href="https://www.linkedin.com/in/anjishnu" class="btn btn-default btn-lg"><i class="fa fa-linkedin-square fa-fw"></i>
-			<span class="network-name">LinkedIn</span>
-		      </a>
-                    </li>
-                    <li>
-                      <a href="https://github.com/anjishnu" class="btn btn-default btn-lg">
-			<i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                    <li>
-                      <a href="mailto:anjishnu.kr@gmail.com" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i>
-			<span class="network-name">Google+</span></a>
-                    </li>
-		     <li>
-                       <a href="http://www.quora.com/Anjishnu-Kumar" class="btn btn-default btn-lg"> <span class="fa fa-fw"><strong>Q</strong></span>
-			<span class="network-name">Quora</span></a>
-                    </li>
+    </div>
+    <a href="#" class="mobile-nav-close icon icon-hover icon-xs icon-circle icon-primary" data-target="mobile-nav"><i class="fa fa-times"></i></a>
+</nav>
 
-                </ul>
-            </div>
-        </div>
-    </section>
+<!-- Ajax Wrapper & Loader -->
+<div id="ajax-modal"></div>
+<div id="ajax-loader"><i class="fa fa-spinner fa-spin"></i></div>
 
-    <!-- Map Section -->
-    <!--<div id="map"></div>-->
+<!-- JS Libraries -->
+<script src="assets/js/jquery-1.11.3.min.js"></script>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container text-center">
-            <p>Copyright &copy; Anjishnu Kumar 2015</p>
-        </div>
-    </footer>
+<!-- JS Plugins -->
+<script>
+window.paceOptions = {
+    target: '#page-loader',
+    ajax: false
+};
+</script>
+<script src="assets/js/plugins.js"></script>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+<!-- JS Core -->
+<script src="assets/js/core.min.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+<!-- Google Map API -->
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
+<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information. -->
+<!--
+-->
+<script>
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-42402821-3']);
+    _gaq.push(['_trackPageview']);
 
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/grayscale.js"></script>
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
 
 </body>
 
