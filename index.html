@@ -48,11 +48,10 @@
     <!-- Navigation -->
     <nav id="main-menu">
         <ul class="nav nav-vertical">
-            <li><a name="#home"><span>Home</span></a></li>
-            <li><a name="#resume"><span>About</span></a></li>
-            <li><a name="#publication"><span>Work</span></a></li>
-            <li><a name="#experiences"><span>Experiences</span></a></li>
-            <!--<li><a href="#teaching"><span>Teaching</span></a></li> -->
+            <li><a href="#home"><span>Home</span></a></li>
+            <li><a href="#resume"><span>About</span></a></li>
+            <li><a href="#publication"><span>Work</span></a></li>
+            <li><a href="#experiences"><span>Experiences</span></a></li>
             <li><a href="#contact"><span>Contact</span></a></li>
         </ul>
     </nav>
@@ -63,9 +62,8 @@
             <strong class="text-sm">Check my social media!</strong>
         -->
         <ul class="list-inline margin-t-10">
-            <li><a href="https://www.facebook.com/eddy0613" class="icon icon-xs"><i class="fa fa-facebook text-muted"></i></a></li>
-            <li><a href="https://github.com/eddy0613" class="icon icon-xs"><i class="fa fa-github text-muted"></i></a></li>
-            <li><a href="https://uk.linkedin.com/in/phs26" class="icon icon-xs"><i class="fa fa-linkedin text-muted"></i></a></li>
+            <li><a href="https://github.com/anjishnu" class="icon icon-xs"><i class="fa fa-github text-muted"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/anjishnu" class="icon icon-xs"><i class="fa fa-linkedin text-muted"></i></a></li>
         </ul>
     </div>
 
@@ -77,7 +75,7 @@
 <div id="content" class="bg-white">
 
     <!-- Section - Home -->
-    <section id="home" class="section fullheight bg-secondary dark padding-v-60">
+    <section name='home' id="home" class="section fullheight bg-secondary dark padding-v-60">
 
         <!-- BG Image -->
         <!--
@@ -89,7 +87,10 @@
 
         <!-- Middle -->
         <div class="container container-wide v-bottom padding-v-0">
-            <h1 class="text-lg margin-b-0">Hi! I’m <strong>Anjishnu Kumar</strong></h1>
+            <h1 class="text-lg margin-b-0">Hi! I’m <strong style="
+    color: #fff;
+    text-shadow: 0 0 0.2em #000;
+">Anjishnu Kumar</strong></h1>
             <h5 class="text-tertiary margin-b-40">Applied Research Scientist <b>//</b> Machine Learning Engineer</h5>
         <!--
             <span data-target="local-scroll"><a href="#resume" class="btn btn-lg btn-primary animated" data-animation="bounceIn"><span>More about me!</span><i class="ti-arrow-down"></i></a></span>
@@ -173,7 +174,7 @@
     <!-- Section - Resume / End -->
 
     <!-- Section - Publication -->
-    <section id="publication" class="section bg-grey padding-v-60">
+    <section id="publication" name="publication" class="section bg-grey padding-v-60">
 
         <!-- Content -->
         <div class="container container-wide">
@@ -225,44 +226,36 @@
 
                 </div>
 
-                <!--
-                -->
                 <div class="projects masonry-item">
                     <p><h4>
                     Industrial Projects
                     </h4></p>
-
-                    <ol class="projects" reversed>
+                    <ul class="projects" reversed>
                         <li>
-                        <b>Natural Skill Interaction Research and Development</b><p>
+                        <b><a href="https://www.youtube.com/embed/HXtjdXjpJwI?start=1565"> Natural Skill Interaction </a></b><p>
                             <i> Designed, prototyped, and helped productionize system that enables customers to talk to Alexa skills without
                             needing to remember the name of the skill.</i>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/HXtjdXjpJwI?start=1565" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
                         </li>
-                    </ol>
-
-                    <ol class="projects" reversed>
+                    </ul>
+                    <ul class="projects" reversed>
                         <li>
-                        <b>Alexa Skill Suggestions</b><p>
+                        <b><a href="https://techcrunch.com/2017/09/05/amazon-alexa-now-responds-to-certain-questions-with-skills-that-can-help-you-when-alexa-cant/"> Alexa Skill Suggestions </a></b><p>
                             <i> Built the first version of the system used to recommend skills to customers. </i>
                         </li>
-                    </ol>
-
-                    <ol class="projects" reversed>
+                    </ul>
+                    <ul class="projects" reversed>
                         <li>
-                        <b>Amazon Lex: Spoken Language Understanding as an AWS Service</b><p>
-                            <i> The work done for ASK was generalized further to deploy as an AWS Service. </i>
+                        <b><a href="https://aws.amazon.com/blogs/aws/amazon-lex-build-conversational-voice-text-interfaces/">Amazon Lex: Spoken Language Understanding as an AWS Service</a></b><p>
+                            <i> The work done for ASK was developed and deployed as a spoken-language understading service for AWS. </i>
                         </li>
-                    </ol>
-                    <ol class="projects" reversed>
+                    </ul>
+                    <ul class="projects" reversed>
                         <li>
-                        <b>Alexa Skills Kit: Spoken Language Understanding Platform</b><p>
-                            <i> Built the spoken language understanding platform that underpins the Alexa Skills Kit.</i>
+                        <b><a href="https://www.voicebot.ai/2017/12/15/amazon-alexa-skill-count-officially-passes-25000-u-s/">Alexa Skills Kit: Spoken Language Understanding Platform</a></b><p>
+                            <i> Built the foundational capabilities for spoken language understanding platform that underpins the Alexa Skills Kit, which has deployed over 25,000 skills in the US, 30,000 all over the world.</i>
                         </li>
-                    </ol>
-
+                    </ul>
                 </div>
-
                 <div class="patents masonry-item">
                     <p><h4>
                     Patents
@@ -343,8 +336,8 @@
     <!-- Section - publication / End -->
 
     <!-- Section - experiences -->
-    <section id="experiences" class="section bg-primary dark padding-v-60">
-
+    <section id="experiences" name="experiences" class="section bg-primary dark padding-v-60">
+      
         <!-- Content -->
         <div class="container container-wide">
 
@@ -430,10 +423,24 @@
                     </li>
 
                     <li>
-                    <b>PricewaterHouseCoopers</b>
+                    <b>PricewaterhouseCoopers</b>
                     <p>
-                    <i>Management Consulting Intern, India e-Governance Advisory, Feb 2015</i>,
+                    <i>Management Consulting Intern, India e-Governance Advisory </i>,
                     </li>
+
+                    <li>
+                    <b>National Thermal Power Corporation of India</b>
+                    <p>
+                    <i>Process Engineering Intern,  </i>,
+                    </li>
+
+                    <li>
+                    <b>O-Zone Networks</b>
+                    <p>
+                    <i>Business Analyst Intern, Business Development / Strategy.
+                      Designed an assessment of internet technologies in India which was pitched to the head of Apple India.</i>,
+                    </li>
+
                 </ul>
         </div>
 
@@ -461,20 +468,15 @@
             <!-- Contact List -->
             <ul class="list-unstyled list-unstyled-icons">
                 <li><i class="inline-icon icon-before-and-after text-primary fa fa-map-marker"></i>
-                Room BN3-011<br>Engineering Department<br>Trumpington Street<br />Cambridge CB2 1PZ</li>
-                <li><i class="inline-icon icon-before-and-after text-primary fa fa-comment"></i><a href="#">phs26@cam.ac.uk</a></li>
-                <li><i class="inline-icon icon-before-and-after text-primary fa fa-phone"></i>+44 1223 332 654</li>
+                Amazon.com<br>One Station Square<br>Station Road<br />Cambridge CB1 2GA</li>
+                <li><i class="inline-icon icon-before-and-after text-primary fa fa-comment"></i><a href="#">anjishnu.kr@gmail.com</a></li>
+                <li><i class="inline-icon icon-before-and-after text-primary fa fa-phone"></i>+1 314 666 0397</li>
             </ul>
             <ul class="list-inline">
-                <li><a href="https://www.facebook.com/eddy0613" class="icon icon-circle icon-xs icon-facebook"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="https://twitter.com/peihaosu" class="icon icon-circle icon-xs icon-twitter"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="https://plus.google.com/111463251853991772095" class="icon icon-circle icon-xs icon-google-plus"><i class="fa fa-google-plus text-muted"></i></a></li>
-                <li><a href="https://github.com/eddy0613" class="icon icon-circle icon-xs icon-github"><i class="fa fa-github"></i></a></li>
-                <li><a href="https://uk.linkedin.com/in/phs26" class="icon icon-circle icon-xs icon-linkedin"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/anjishnu" class="icon icon-circle icon-xs icon-github"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/anjishnu" class="icon icon-circle icon-xs icon-linkedin"><i class="fa fa-linkedin"></i></a></li>
 
             </ul>
-
-        <p class="text-center">Copyright © 2017 Pei-Hao (Eddy) Su, Design: <a target="_blank" href="http://themes.suelo.pl/mi/">Mi.</a></p>
         </div>
 
 
@@ -498,19 +500,13 @@
             <li><a href="#resume"><span>About</span></a></li>
             <li><a href="#publication"><span>Work</span></a></li>
             <li><a href="#experiences"><span>Industry Experience</span></a></li>
-            <li><a href="#teaching"><span>Teaching</span></a></li>
             <li><a href="#contact"><span>Contact</span></a></li>
         </ul>
         <!-- Social Media -->
         <div class="margin-t-20">
             <ul class="list-inline margin-t-10">
-                <li><a href="https://www.facebook.com/eddy0613" class="icon icon-xs"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="https://twitter.com/peihaosu" class="icon icon-xs"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="https://plus.google.com/111463251853991772095" class="icon icon-xs"><i class="fa fa-google-plus text-muted"></i></a></li>
-                <li><a href="https://github.com/eddy0613" class="icon icon-xs"><i class="fa fa-github"></i></a></li>
-                <li><a href="https://uk.linkedin.com/in/phs26" class="icon icon-xs"><i class="fa fa-linkedin"></i></a></li>
-
-
+                <li><a href="https://github.com/anjishnu" class="icon icon-xs"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/anjishnu" class="icon icon-xs"><i class="fa fa-linkedin"></i></a></li>
             </ul>
         </div>
     </div>
