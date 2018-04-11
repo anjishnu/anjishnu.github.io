@@ -89,10 +89,9 @@
 
         <!-- Middle -->
         <div class="container container-wide v-bottom padding-v-0">
-            <h1 class="text-lg margin-b-0">Hi! I’m <strong style="
+            <h1 class="text-lg margin-b-0"><strong style="
     color: #fff;
-    text-shadow: 0 0 0.2em #000;
-">Anjishnu Kumar</strong></h1>
+    text-shadow: 0 0 0.2em #000;">Anjishnu Kumar</strong></h1>
             <h5 class="text-tertiary margin-b-40">Applied Research Scientist <b>//</b> Machine Learning Engineer</h5>
         <!--
             <span data-target="local-scroll"><a href="#resume" class="btn btn-lg btn-primary animated" data-animation="bounceIn"><span>More about me!</span><i class="ti-arrow-down"></i></a></span>
@@ -118,18 +117,20 @@
                     <div class="resume-box">
 
 		      Hi, I'm Anjishnu, I work as an applied machine learning scientist on
-                      <strong><a href="https://en.wikipedia.org/wiki/Amazon_Alexa" target="_blank">Alexa</a></strong>.
-                      I current work in the Cambridge office and focus on open domain question answering.
+                      <strong><a href="https://en.wikipedia.org/wiki/Amazon_Alexa" target="_blank">Alexa</a></strong>, Amazon's virtual assistant platform.
+                      I current work in the Cambridge office and focus on improving Alexa's ability to answer arbitrary questions in domain agostic ways.
 
                       <br><br>
-                      I enjoy building cutting edge consumer facing products that are made possible by machine learning.
-		      On the research side, my interest lies mainly in the intersection of representation learning and zero-shot learning and knowledge representation.
-		      The learning algorithms of today are extremely resource hungry, in terms of data, computation and size - whereas humans are able to perform exceptionally well at a task with only a single representative example.		     
-                            <br><br>
+		      I enjoy building bleeding edge consumer facing products that are made possible by new advances in machine learning. I consider myself both a scientist and an engineer, and do not shy away from either invention or implementation.
+		      On the research side, my interest lies mainly in the intersection of representation learning and low resource machine learning - on how to design algorithms that can better deal with noisy or sparse datasets, or
+		      more generally, on constrained problem settings that are more likely be encountered in real life scenarios - this has led me to work on projects in model compression and acceleration, zero-shot learning and weak supervision techniques.
+                      <br><br>
 
-                            Prior to Cambridge, I worked in Seattle where I had the experience of building one of the biggest machine learning powered platforms of today,  <strong><a href="http://speech.ee.ntu.edu.tw/previous_version/lslNew.htm" target="_blank">The Alexa Skills Kit (ASK)</a></strong>
-			    This project was an incredible learning experience in terms of building machine learning systems with resource constraints and in terms of ML platform design.
-                            <a href="assets/doc/resume_anjishnu_kumar_oct17.pdf"> <strong>Resume</strong></a> (last update: 19 October 2017)
+		      On the engineering side, production code that I have written currently powers online ML model building for two different services spanning Alexa and Amazon Web Services - namely, the <strong><a href="https://developer.amazon.com/alexa-skills-kit" target="_blank">Alexa Skills Kit (ASK)</a></strong>
+		      and AWS's <strong><a href="https://aws.amazon.com/lex/">Amazon Lex</a></strong> spoken language SDKs. I have been lucky to have the chance to work on state of the ML research as well as software architecture, and have over half a dozen patent applications pending with the USPTO in
+		      fields such as deep learning, NLP, question answering, spoken language technology and recommender systems.
+
+                      <a href="assets/doc/resume_anjishnu_kumar_oct17.pdf"> <strong>Resume</strong></a> (last update: 19 October 2017)
 
                     </div>
 
@@ -238,19 +239,19 @@
                         <li>
                         <b><a href="https://www.youtube.com/embed/HXtjdXjpJwI?start=1565"> Natural Skill Interaction </a></b><p>
                             <i> Designed, prototyped, and helped productionize system that enables customers to talk to Alexa skills without
-                            needing to remember the name of the skill.</i>
+                            needing to remember the name of the skill. Watch Alexa Science VP Rohit Prasad describe the feature at AWS Re:invent 2017.</i>
                         </li>
                     </ul>
                     <ul class="projects" reversed>
                         <li>
                         <b><a href="https://techcrunch.com/2017/09/05/amazon-alexa-now-responds-to-certain-questions-with-skills-that-can-help-you-when-alexa-cant/"> Alexa Skill Suggestions </a></b><p>
-                            <i> Built the first version of the system used to recommend skills to customers. </i>
+                            <i> Built the first version of a system used to recommend relevant Alexa Skills to customers. </i>
                         </li>
                     </ul>
                     <ul class="projects" reversed>
                         <li>
                         <b><a href="https://aws.amazon.com/blogs/aws/amazon-lex-build-conversational-voice-text-interfaces/">Amazon Lex: Spoken Language Understanding as an AWS Service</a></b><p>
-                            <i> The work done for ASK was developed and deployed as a spoken-language understading service for AWS. </i>
+                            <i> The work done for ASK was developed and deployed as a spoken-language understading service for AWS, known as Amazon Lex. Lex can be thought of as ASK minus Alexa. </i>
                         </li>
                     </ul>
                     <ul class="projects" reversed>
@@ -259,12 +260,18 @@
                             <i> Built the foundational capabilities for spoken language understanding platform that underpins the Alexa Skills Kit, which has deployed over 25,000 skills in the US, 30,000 all over the world.</i>
                         </li>
                     </ul>
+                    <ul class="projects" reversed>
+                        <li>
+                        <b><a href="https://www.voicebot.ai/2017/12/15/amazon-alexa-skill-count-officially-passes-25000-u-s/">Conditional Random Field Model Compression</a></b><p>
+                            <i>As an intern on the Amazon Echo team, I used a combination of voronoi iteration, bloom filters, feature hashing, elastic net regularization and weight quantization to reduce model sizes by 95% and increase inference speed by 25%,
+			    without any statistically significant loss in accuracy.</i>
+                        </li>
+                    </ul>
                 </div>
                 <div class="patents masonry-item">
                     <p><h4>
                     Patents
                     </h4></p>
-                    <ul><i> Note: 7 applications pending with the USPTO: Watch this space!</i></ul>
 
                     <ul class="patents" reversed>
                         <li>
@@ -273,6 +280,7 @@
                             Inventors: <strong>Anjishnu Kumar</strong> and Markus Dreyer
                         </li>
                     </ul>
+                    <ul><i> Note: 8 more patent applications are currently pending with the USPTO: Watch this space.</i></ul>
                 </div>
 
                 <!-- start code -->
@@ -291,19 +299,19 @@
                         <li>
                             <b><a href='https://github.com/anjishnu/ask-alexa-twitter'>Ask Alexa : Twitter</a></b><p>
                             <i>An Unofficial Twitter Alexa Skill written using ask-alexa-pykit.<br>
-                              Twitter's official Alexa skill Twitter Reader is a fork of this project which removes posting functionality.</i><p>
+                              I implemented an Alexa Skill for Twitter, after pitching it to their business development team - it was adopted by a software engineering team as Twitter's official skill for Alexa.</i><p>
                         </li>
                     </ul>
                     <ul class="code" reversed>
                         <li>
                             <b><a href='https://github.com/anjishnu/surreal'>Surreal</a></b><p>
-                            <i> SUpeR REsolution, (A) Library for. Implemented using Deep Convolutional Generative Adversarial Networks (DCGANs) in Keras.</i><p>
+                            <i> SUpeR REsolution, (A) Library. Implemented using Deep Convolutional Generative Adversarial Networks (DCGANs) in Keras.</i><p>
                         </li>
                     </ul>
                     <ul class="code" reversed>
                         <li>
                             <b>MXNet Gluon</b><p>
-                            <i> Contributions to MxNet's Gluon API, including advanced activation functions. </i><p>
+                            <i> Contributions to MxNet's Gluon API, including advanced activation functions and examples. </i><p>
                         </li>
                     </ul>
                     <ul class="code" reversed>
@@ -316,7 +324,7 @@
                         <li>
                             <b><a href="https://github.com/bajajabhi1/Galleria">Galleria</a></b><p>
                             <i> A machine learning augmented image gallery for Android for semantic visual search.
-                              Basically Google Photo's image search implemented 1 year before Google launched the feature.
+                              Basically Google Photo's image search implemented using a cloud-side cascade of Support Vector Machines, a year before Google launched the feature.
                         </li>
                     </ul>
                     <ul class="code" reversed>
@@ -353,13 +361,16 @@
                     <b>Machine Learning Scientist, Amazon Alexa Knowledge</b>
                     <p>
                     <i>Cambridge UK, September 2017 onwards</i>
-                    </li>
+
+                    <p> Semantic Parsing, Knowledge Bases, Semantic Search.
+		    </li>
 
 
                     <li>
                     <b>Machine Learning Scientist, Amazon Alexa Machine Learning</b>
                     <p>
                     <i>Seattle, USA</i>
+                    <p> Worked on the Alexa Skills Kit and Alexa Brain initiatives.
                     </li>
 
                 </ul>
@@ -391,58 +402,58 @@
                 <ul>
                   <li>
                   <b>Huffington Post</b>
-                  <p>
                   <i>Data Science Intern, Opinion and Sentiment Mining</i>
+		  <p> Built a prototype opinion mining system using Recursive Neural Networks.
                   </li>
 
                   <li>
                   <b>Machine Learning Scientist Intern, Amazon Echo</b>
-                  <p>
                   <i>Cambridge, Mass., USA</i>
+		  <p> Used machine learning and probabilistic data structures to compress a ML model by 95% and reduce inference time by 25% with no significant loss in accuracy.
                   </li>
 
                   <li>
-                  <b>The Earth Institute</b>
-                  <i>Data Engineering Intern, Project SharedSolar, Sustainable Innovations Lab</i>
-                  <p>
+                  <b>The Earth Institute</b>,  <i>Data Engineering Intern, Project SharedSolar, Sustainable Innovations Lab</i>
+                  <p> I worked on data engineering tasks for a distributed solar array in northern Africa, working on anomaly detection in sensor readings, with an aim to develop
+		    dynamic pricing strategies in the future.
+		    <p>
+                  </li>
+
+                  <li>
+                    <b>Electronic Arts</b>, <i>Software Engineering Intern, Digital Advertising Platform</i>
+                    <p> As a server side engineering intern, I migrated EA's push notification serving architecture from a monolithic to a distributed software architecture.
+		      I also built the components that serve push notifications to Amazon's Kindle line of devices.
+		  </li>
+
+                  <li>
+                    <b>Deccan Chronicle</b>
+                    <p>
+                      <i> Weekly Columnist, wrote a column on Software and Technology for 3 years.</i>
+                  </li>
+
+                  <li>
+                    <b>Collegefeed</b>, <i> Consultant, Head of India Business Development, Part-time NLP Software Engineer</i>
+		    <p> Collegefeed was an early stage startup specializing in recruitments targeting college student. I donned several hats there, drafted growth strategies to penetrate the Indian market
+		      and executed customer acquisition campaigns in top tier Indian and US colleges. I also invented/implemented a natural language processing library that automatically discovers keywords from an employee's
+		      resume that are relevant to any given job listing.
+                  </li>
+
+                  <li>
+                    <b>PricewaterhouseCoopers</b>
+                    <i>Management Consulting Intern, India e-Governance Advisory </i>,
+		    <p> I worked as part of PwC's advisory division, helping draft policy and technology strategy for the Government of India's GST (Goods and Sales Tax) project, the largest tax reform in the world.
                   </li>
 
                     <li>
-                    <b>Electronic Arts</b>
-                    <i>Software Engineering Intern, Digital Advertising Platform</i>
-                    <p>
+                      <b>National Thermal Power Corporation of India</b><i>, Process Engineering Intern </i>,
+		      <p> As a process engineering intern in the Coal Processing division, I worked on regression models to project possible monetary savings and efficiency gains in a coal waste re-use project.
                     </li>
 
-                    <li>
-                    <b>Deccan Chronicle</b>
-                    <p>
-                    <i> Weekly Columnist, wrote a column on Software and Technology for 3 years.</i>
-                    </li>
-
-                    <li>
-                    <b>Collegefeed</b>
-                    <p>
-                    <i> Consultant, India Business Development, part-time NLP Engineer</i>
-                    </li>
-
-                    <li>
-                    <b>PricewaterhouseCoopers</b>
-                    <p>
-                    <i>Management Consulting Intern, India e-Governance Advisory </i>,
-                    </li>
-
-                    <li>
-                    <b>National Thermal Power Corporation of India</b>
-                    <p>
-                    <i>Process Engineering Intern,  </i>,
-                    </li>
-
-                    <li>
+                  <li>
                     <b>O-Zone Networks</b>
-                    <p>
-                    <i>Business Analyst Intern, Business Development / Strategy.
-                      Designed an assessment of internet technologies in India which was pitched to the head of Apple India.</i>,
-                    </li>
+                      <i>Business Analyst Intern, Business Development / Strategy.
+			<p>Created an assessment report projected the growth of wireless internet technologies in India through 2020, the report was used to pitch to the head of Apple India.</i>,
+                  </li>
 
                 </ul>
         </div>
